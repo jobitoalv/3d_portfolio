@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-// import { computersCanvas } from './canvas';
+import { ComputersCanvas } from './canvas';
+
 
 const Hero = () => {
   return (
@@ -20,10 +21,12 @@ const Hero = () => {
         I started my journey into technology at a Full Stack Development boot camp <br className="sm:block hidden"/>where I gained an understanding and passion for the tech world. 
         </p>
     </div>
+
+    <ComputersCanvas/>
    </section>
   )
 }
 
-console.log(Hero)
+
 
 export default Hero
