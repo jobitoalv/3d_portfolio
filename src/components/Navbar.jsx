@@ -21,7 +21,7 @@ const Navbar = () => {
           window.scrollTo(0,0);
           }} 
         > 
-          <img src={logo} alt='logo' className='w-10 h-10 object-contain'/>
+          <img src={logo} alt='logo' className='w-20 h-20 object-contain'/>
           <p className="text-white text-[18px] font-bold cursor-pointer flex">Job &nbsp;<span className="sm:block hidden"> Alvarez Chow | Software Developer</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

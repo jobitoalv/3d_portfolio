@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { computersCanvas } from './canvas';
+// import { computersCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -13,9 +13,17 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
       </div>
+        <h1 className={`${styles.heroHeadText} text-white`}>
+          Hi,I'm <span className="text-[#915eff] ">Job</span>
+        </h1>
+        <p className= {`${styles.heroSubText} mt-2 text-white-100`}>
+        I started my journey into technology at a Full Stack Development boot camp <br className="sm:block hidden"/>where I gained an understanding and passion for the tech world. 
+        </p>
     </div>
    </section>
   )
 }
+
+console.log(Hero)
 
 export default Hero
