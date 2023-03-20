@@ -86,10 +86,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -114,10 +110,7 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "neo",
-    icon: neo,
-  },
+  
 ];
 
 const experiences = [
