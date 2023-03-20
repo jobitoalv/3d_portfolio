@@ -20,8 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import neo from "./tech/neo.png";
+import ruby from "./tech/ruby.png";
 
-import meta from "./company/meta.png";
+
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -52,9 +54,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  neo,
   shopify,
   starbucks,
+  ruby,
   tesla,
   carrent,
   jobit,

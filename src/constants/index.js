@@ -15,7 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
+  neo,
+  ruby,
   starbucks,
   tesla,
   shopify,
@@ -69,6 +70,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "ruby",
+    icon: ruby,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -112,6 +117,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "neo",
+    icon: neo,
+  },
 ];
 
 const experiences = [
@@ -133,7 +142,7 @@ const experiences = [
     company_name: "Assess Value Pro",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2021 Dec - 2022 Feb",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Building and maintaining an asset valuation software.",
@@ -184,16 +193,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "React Menu",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "simple React menu, when clicking different tap it will take you to the specific category",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -202,19 +211,19 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://cozy-dodol-e38c57.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "1st React Portfolio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "this was my very first React Portfolio, is really simple but is my first born child and I will always cherish it ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -223,12 +232,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://job-react-portfolio.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Birthday Reminder",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A birthday reminder so you won`t forget any of your family and friends birthday ever again",
     tags: [
       {
         name: "nextjs",
